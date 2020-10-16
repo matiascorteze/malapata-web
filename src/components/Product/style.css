@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+/*font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+/*font-family: 'Nunito', sans-serif;*/
+
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: clamp(150px, 200px ,300px);
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px #9999999e;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.product-title {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: clamp(1.5rem, 2vw, 3rem);
+  margin: 20px auto;
+  color: #292929;
+  width: 90%;
+  line-height: 1.5rem;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.desde {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: clamp(1rem, 1.5vw, 2rem);
+  margin: 0 auto -5px auto;
+  color: #292929;
+  width: 90%;
+  line-height: 1.5rem;
+}
+
+.product-price{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: clamp(1.5rem, 2vw, 3rem);
+  margin: 0 auto;
+  color: #292929;
+}
+
+.product-img {
+  width: 85%;
+  margin: 20px auto 0px auto;
+}
+
+.product-ver-mas-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #73cbf1;
+  border: none;
+  outline: none;
+  border-radius: 0 0 5px 5px;
+  height: 40px;
+  width: 100%;
+  align-self: baseline;
+  margin-top: 20px;
+}
+
+.product-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px#73cbf1;
+}
