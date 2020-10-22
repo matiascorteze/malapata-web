@@ -17,6 +17,7 @@
   margin: 0 auto;
   width: 85%;
   justify-content: center;
+  
 }
 
 .product-list-header {
@@ -24,4 +25,8 @@
   margin: 0 auto 30px auto;
   color: #292929;
   font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.product-link{
+  text-decoration: none;
 }

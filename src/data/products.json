@@ -2,51 +2,191 @@
   {
     "id": 1,
     "name": "Carrito Delantero",
+    "url": "carrito-delantero",
     "price": 500,
-    "desc": "Dispositivo JUPITER para impedir que nuestras mascotas ciegas choquen contra objetos. Se adapta a cualquier collar. (NO pretal)    es super liviano (10 grs) y no no ocasiona ningún cansancio cervical. aconsejamos para su adaptación colocarlo gradualmente unas horas por día, para que su mascota vaya incorporando esta señal de aviso cuando golpea con un objeto,  con los días ya podrá usarlo todo el tiempo. quitárlo por las noches para que pueda descansar cómodamente.JUPITER viene en 4 tamaños, mini, chico, mediano y grande, y cualquiera de estos se puede achicar de ser necesario cortando el aro de metal con una pinza, asi de facil .",
-    "img": "https://i.postimg.cc/6QvSRHrP/perrito-01.jpg"
+    "desc": ["descripción", "pendiente"],
+    "main_img": "https://i.postimg.cc/nrRS2hDt/carrito-delantero-01.jpg",
+    "alt_img": ["https://i.postimg.cc/nrRS2hDt/carrito-delantero-01.jpg", "https://i.postimg.cc/dQ4fw4SS/carrito-delantero-02.jpg"]
   },
   {
     "id": 2,
     "name": "Carrito Trasero",
+    "url": "carrito-trasero",
     "price": 500,
-    "desc": "Dispositivo JUPITER para impedir que nuestras mascotas ciegas choquen contra objetos. Se adapta a cualquier collar. (NO pretal)    es super liviano (10 grs) y no no ocasiona ningún cansancio cervical. aconsejamos para su adaptación colocarlo gradualmente unas horas por día, para que su mascota vaya incorporando esta señal de aviso cuando golpea con un objeto,  con los días ya podrá usarlo todo el tiempo. quitárlo por las noches para que pueda descansar cómodamente.JUPITER viene en 4 tamaños, mini, chico, mediano y grande, y cualquiera de estos se puede achicar de ser necesario cortando el aro de metal con una pinza, asi de facil .",
-    "img": "https://i.postimg.cc/6QvSRHrP/perrito-01.jpg"
+    "desc": ["descripción", "pendiente"],
+    "main_img": "https://i.postimg.cc/qMCZynLk/carrito-trasero-01.jpg",
+    "alt_img": ["https://i.postimg.cc/qMCZynLk/carrito-trasero-01.jpg", "https://i.postimg.cc/pLbcZTGK/carrito-trasero-02.jpg"]
   },
   {
     "id": 3,
-    "name": "Ferula Tongue",
-    "price": 500,
-    "desc": "Dispositivo JUPITER para impedir que nuestras mascotas ciegas choquen contra objetos. Se adapta a cualquier collar. (NO pretal)    es super liviano (10 grs) y no no ocasiona ningún cansancio cervical. aconsejamos para su adaptación colocarlo gradualmente unas horas por día, para que su mascota vaya incorporando esta señal de aviso cuando golpea con un objeto,  con los días ya podrá usarlo todo el tiempo. quitárlo por las noches para que pueda descansar cómodamente.JUPITER viene en 4 tamaños, mini, chico, mediano y grande, y cualquiera de estos se puede achicar de ser necesario cortando el aro de metal con una pinza, asi de facil .",
-    "img": "https://i.postimg.cc/6QvSRHrP/perrito-01.jpg"
+    "name": "Férula Tongue Corta",
+    "url": "ferula-tongue-corta",
+    "price": 1200,
+    "desc": ["Fabricada a la medida de tu perro o gato, esta férula de bota corta está indicada para estabilizar lesiones de los dedos y proporcionar soporte para posicionar la extremidad de forma correcta.", " ", "Válida para extremidad trasera o delantera, se puede poner y quitar con facilidad."],
+    "main_img": "https://i.postimg.cc/SKzWt7ns/ferula-tongue-corta-01.jpg",
+    "alt_img": ["https://i.postimg.cc/SKzWt7ns/ferula-tongue-corta-01.jpg", "https://i.postimg.cc/P57W4Fr9/ferula-tongue-corta-02.jpg", "https://i.postimg.cc/ZnJpRGVB/ferula-tongue-corta-03.jpg"],
+    "medidas": [
+      {
+        "title": "Medida A",
+        "proc": "Debes medir desde la punta de la uña del dedo más largo hata el final del apoyo contra el suelo de las almohadillas."
+      },
+      {
+        "title": "Medida B",
+        "proc": "La medida B debe ser tomada desde el suelo hasta el tarso (para pata trasera) o el carpo (para pata delantera) sin sobrepasarlo."
+      },{
+        "title": "Medida C",
+        "proc": "Apoya la pata de tu perro o gato firmemente sobre el suelo y mide el ancho con una cinta métrica o un metro flexible."
+      },
+      {
+        "title": "Medida D",
+        "proc": "Mide el contorno de la pata de tu perro o gato con una cinta métrica flexible como indica la foto."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Férula Tongue Delantera",
+    "url": "ferula-tongue-delantera",
+    "price": 1200,
+    "desc": ["Fabricada a la medida de tu perro o gato, esta férula para pata delantera está indicada tanto para problemas neurológicos, donde sirve para posicionar correctamente la extremidad, como para problemas traumatológicos, donde inmovilizan y dan soporte en la extremidad.", " ", "Se puede poner y quitar con facilidad."],
+    "main_img": "https://i.postimg.cc/MTqvbyRg/ferula-tongue-delantera-01.jpg",
+    "alt_img": ["https://i.postimg.cc/MTqvbyRg/ferula-tongue-delantera-01.jpg", "https://i.postimg.cc/QxtKykP3/ferula-tongue-delantera-02.jpg", "https://i.postimg.cc/QCnC3wPr/ferula-tongue-delantera-03.jpg"],
+    "medidas": [
+      {
+        "title": "Medida A",
+        "proc": "Debes medir desde la punta de la uña del dedo más largo hata el final del apoyo contra el suelo de las almohadillas."
+      },
+      {
+        "title": "Medida B",
+        "proc": "La medida B debe ser tomada desde el suelo hasta el carpo sin sobrepasarlo."
+      },
+      {
+        "title": "Medida C",
+        "proc": "Apoya la pata de tu perro o gato firmemente sobre el suelo y mide el ancho con una cinta métrica o un metro flexible."
+      },
+      {
+        "title": "Medida D",
+        "proc": "Mide el contorno de la pata de tu perro o gato con una cinta métrica flexible como indica la foto."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Férula Tongue Trasera",
+    "url": "ferula-tongue-trasera",
+    "price": 1200,
+    "desc": ["Fabricada a la medida de tu perro o gato, esta férula para pata trasera está indicada tanto para problemas neurológicos, donde sirve para posicionar correctamente la extremidad, como para problemas traumatológicos, donde inmovilizan y dan soporte en la extremidad.", " ", "Se puede poner y quitar con facilidad."],
+    "main_img": "https://i.postimg.cc/GhW3xFnz/ferula-tongue-trasera-01.jpg",
+    "alt_img": ["https://i.postimg.cc/GhW3xFnz/ferula-tongue-trasera-01.jpg", "https://i.postimg.cc/bYFwsX67/ferula-tongue-trasera-02.jpg", "https://i.postimg.cc/GprcZb2y/ferula-tongue-trasera-03.jpg"],
+    "medidas": [
+      {
+        "title": "Medida A",
+        "proc": "Debes medir desde la punta de la uña del dedo más largo hata el final del apoyo contra el suelo de las almohadillas."
+      },
+      {
+        "title": "Medida B",
+        "proc": "La medida B debe ser tomada desde el suelo hasta el tarso (para pata trasera) o el carpo (para pata delantera) sin sobrepasarlo."
+      },
+      {
+        "title": "Medida C",
+        "proc": "Apoya la pata de tu perro o gato firmemente sobre el suelo y mide el ancho con una cinta métrica o un metro flexible."
+      },
+      {
+        "title": "Medida D",
+        "proc": "Mide el contorno de la pata de tu perro o gato con una cinta métrica flexible como indica la foto."
+      },
+      {
+        "title": "Medida E",
+        "proc": "Debe cubrir la distancia entre el tarso y el punto medio hasta la rodilla."
+      }
+    ]
   },
   {
     "id": 4,
-    "name": "Ferula Tita",
-    "price": 500,
-    "desc": "Dispositivo JUPITER para impedir que nuestras mascotas ciegas choquen contra objetos. Se adapta a cualquier collar. (NO pretal)    es super liviano (10 grs) y no no ocasiona ningún cansancio cervical. aconsejamos para su adaptación colocarlo gradualmente unas horas por día, para que su mascota vaya incorporando esta señal de aviso cuando golpea con un objeto,  con los días ya podrá usarlo todo el tiempo. quitárlo por las noches para que pueda descansar cómodamente.JUPITER viene en 4 tamaños, mini, chico, mediano y grande, y cualquiera de estos se puede achicar de ser necesario cortando el aro de metal con una pinza, asi de facil .",
-    "img": "https://i.postimg.cc/6QvSRHrP/perrito-01.jpg"
+    "name": "Férula Tita",
+    "url": "ferula-tita",
+    "price": 1200,
+    "desc": ["Fabricada a la medida de tu perro o gato, para lesiones en el tendón, los ligamentos, o para estabilización post-quirúrgica inmovilizando el tarso.", " ", "Se puede poner y quitar con facilidad, no impide el contacto de la extremidad con el suelo."],
+    "main_img": "https://i.postimg.cc/pXZkDZjM/ferula-tita01.jpg",
+    "alt_img": ["https://i.postimg.cc/pXZkDZjM/ferula-tita01.jpg", "https://i.postimg.cc/bN83DMsR/ferula-tita-02.jpg", "https://i.postimg.cc/6ppczvV2/ferula-tita-03.jpg"],
+    "medidas": [
+      {
+        "title": "Medida B",
+        "proc": "Debe partir del tarso hacia abajo sin impedir el movimiento de la articulación de la pezuña."
+      },
+      {
+        "title": "Medida D",
+        "proc": "La medida B debe ser tomada desde el suelo hasta el tarso (para pata trasera) o el carpo (para pata delantera) sin sobrepasarlo."
+      },
+      {
+        "title": "Medida E",
+        "proc": "Apoya la pata de tu perro o gato firmemente sobre el suelo y mide el ancho con una cinta métrica o un metro flexible."
+      }
+    ]
   },
   {
     "id": 5,
-    "name": "Ferula Gruyere",
-    "price": 500,
-    "desc": "Dispositivo JUPITER para impedir que nuestras mascotas ciegas choquen contra objetos. Se adapta a cualquier collar. (NO pretal)    es super liviano (10 grs) y no no ocasiona ningún cansancio cervical. aconsejamos para su adaptación colocarlo gradualmente unas horas por día, para que su mascota vaya incorporando esta señal de aviso cuando golpea con un objeto,  con los días ya podrá usarlo todo el tiempo. quitárlo por las noches para que pueda descansar cómodamente.JUPITER viene en 4 tamaños, mini, chico, mediano y grande, y cualquiera de estos se puede achicar de ser necesario cortando el aro de metal con una pinza, asi de facil .",
-    "img": "https://i.postimg.cc/6QvSRHrP/perrito-01.jpg"
+    "name": "Férula Gruyere",
+    "url": "ferula-gruyere",
+    "price": 1200,
+    "desc": ["Férulas plásticas termo moldeables con agua hirviendo, de uso veterinario, sustituyen los yeso o vendajes comunes, pero estas férulas no se humedecen, no se ensucian, no desarrollan bacterias ni olores, su original diseño mantiene la zona a tratar inmovilizada, limpia, seca, ventilada y sin olores, además son impermeables así que podes bañar a tu mascota con la férula puesta.", " ", "Acelera el proceso de curación ya que permite la colocación de la aparatología de fisioterapia y no hay que esperar a quitar los vendajes para comenzar con la rehabilitación.", " ", "Es compuesta por una membrana de goma flexible de diseño aireado que amortigua y evita el contacto con piel de la mascota y el segundo componente de PLA rígido ( biopolímero derivado del maíz) termo moldeable.", " ", "Estas férulas son reutilizables y biodegradables. Se colocan en 5 segundos y no hay que esperar tiempo de secado. Se pueden sacar y poner, ya que se realizan de ¾ de caña. Las medidas se toman de la altura que se desee cubrir y el contorno de la pata", " ", "Son recomendadas para fisuras, post- fracturas, como tutor en las fracturas bajo las vendas, dermatitis, lesiones en músculos o ligamentos, problemas de motricidad, para las mascotas que lastiman arrastrando sus extremidades."],
+    "main_img": "https://i.postimg.cc/WpZHJgSs/ferula-gruyere-02.jpg",
+    "alt_img": ["https://i.postimg.cc/WpZHJgSs/ferula-gruyere-02.jpg", "https://i.postimg.cc/m2G63k6C/ferula-gruyere-03.jpg"],
+    "medidas": [
+      {
+        "title": "Medida A",
+        "proc": "Debes medir desde la punta de la uña del dedo más largo hata el final del apoyo contra el suelo de las almohadillas."
+      },
+      {
+        "title": "Medida B",
+        "proc": "Debe partir del tarso hacia abajo sin impedir el movimiento de la articulación de la pezuña."
+      },
+      {
+        "title": "Medida C",
+        "proc": "Apoya la pata de tu perro o gato firmemente sobre el suelo y mide el ancho con una cinta métrica o un metro flexible."
+      },
+      {
+        "title": "Medida D",
+        "proc": "Debes medir con centímetro o cinta métrica flexible el contorno de la pata a la altura que marcamos con un aro."
+      }
+    ]
   },
   {
     "id": 6,
-    "name": "Ferula Carpo",
-    "price": 500,
-    "desc": "Dispositivo JUPITER para impedir que nuestras mascotas ciegas choquen contra objetos. Se adapta a cualquier collar. (NO pretal)    es super liviano (10 grs) y no no ocasiona ningún cansancio cervical. aconsejamos para su adaptación colocarlo gradualmente unas horas por día, para que su mascota vaya incorporando esta señal de aviso cuando golpea con un objeto,  con los días ya podrá usarlo todo el tiempo. quitárlo por las noches para que pueda descansar cómodamente.JUPITER viene en 4 tamaños, mini, chico, mediano y grande, y cualquiera de estos se puede achicar de ser necesario cortando el aro de metal con una pinza, asi de facil .",
-    "img": "https://i.postimg.cc/6QvSRHrP/perrito-01.jpg"
+    "name": "Férula Carpo",
+    "url": "ferula-carpo",
+    "price": 1200,
+    "desc": ["Fabricada a la medida de tu perro o gato, para lesiones en el tendón, los ligamentos, o para estabilización post-quirúrgica inmovilizando el tarso.", " ", "Se puede poner y quitar con facilidad, no impide el contacto de la extremidad con el suelo."],
+    "main_img": "https://i.postimg.cc/0QgsGcqC/ferula-carpo-01.jpg",
+    "alt_img": ["https://i.postimg.cc/0QgsGcqC/ferula-carpo-01.jpg", "https://i.postimg.cc/Jz2m0R6v/ferula-carpo-02.jpg", "https://i.postimg.cc/Y91wdYrB/ferula-carpo-03.jpg"],
+    "medidas": [
+      {
+        "title": "Medida A",
+        "proc": "Debes medir desde la punta de la uña del dedo más largo hata el final del apoyo contra el suelo de las almohadillas."
+      },
+      {
+        "title": "Medida B",
+        "proc": "La medida B debe ser tomada desde el suelo hasta el tarso (para pata trasera) o el carpo (para pata delantera) sin sobrepasarlo."
+      },
+      {
+        "title": "Medida C",
+        "proc": "Apoya la pata de tu perro o gato firmemente sobre el suelo y mide el ancho con una cinta métrica o un metro flexible."
+      },
+      {
+        "title": "Medida D",
+        "proc": "Debes medir con centímetro o cinta métrica flexible el contorno de la pata a la altura que marcamos con un aro."
+      }
+    ]
   }
   ,
   {
     "id": 7,
     "name": "Aro Júpiter",
+    "url": "aro-jupiter",
     "price": 500,
-    "desc": "Dispositivo JUPITER para impedir que nuestras mascotas ciegas choquen contra objetos. Se adapta a cualquier collar. (NO pretal)    es super liviano (10 grs) y no no ocasiona ningún cansancio cervical. aconsejamos para su adaptación colocarlo gradualmente unas horas por día, para que su mascota vaya incorporando esta señal de aviso cuando golpea con un objeto,  con los días ya podrá usarlo todo el tiempo. quitárlo por las noches para que pueda descansar cómodamente.JUPITER viene en 4 tamaños, mini, chico, mediano y grande, y cualquiera de estos se puede achicar de ser necesario cortando el aro de metal con una pinza, asi de facil .",
-    "img": "https://i.postimg.cc/6QvSRHrP/perrito-01.jpg"
+    "desc": ["Dispositivo JÚPITER para impedir que nuestras mascotas ciegas choquen contra objetos. Es super liviano (10 grs) y no ocasiona ningún cansancio cervical.", " ", "Aconsejamos para su adaptación colocarlo gradualmente unas horas por día, para que su mascota vaya incorporando esta señal de aviso cuando golpea con un objeto, con los días ya podrá usarlo todo el tiempo. Quitarlo por las noches para que pueda descansar cómodamente.","JUPITER viene en 4 tamaños: mini, chico, mediano y grande, y cualquiera de estos se puede achicar de ser necesario cortando el aro de metal con una pinza, así de fácil!", " ", "Si es con collar, informar para su elavoracion el tamaño de su peludo y el contorno del cuello para realizarlo a su medida."],
+    "main_img": "https://i.postimg.cc/G9ndcKX2/aro-jupiter-01.jpg",
+    "alt_img": ["https://i.postimg.cc/G9ndcKX2/aro-jupiter-01.jpg", "https://i.postimg.cc/qM2C25V1/aro-jupiter-02.jpg"]
   }
 ]
+

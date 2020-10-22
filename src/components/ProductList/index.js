@@ -1,6 +1,7 @@
 import React from "react";
 import Product from "../Product"
 import products from "../../data/products.json"
+import { Link } from "react-router-dom"
 import "./style.css"
 
 function ProductList() {
@@ -13,7 +14,9 @@ function ProductList() {
       <div className="product-list">
         {productList.map((product, key) => {
           return (
-            <Product props={product} key={key} />
+            <Link key={key} to={`/product/${product.url}`} className="product-link">
+              <Product props={product}/>
+            </Link>
           )
         })}
       </div>

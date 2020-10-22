@@ -1,14 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import "./style.css"
 
 function ButtonsSections() {
-  return(
+  return (
     <ul className="buttonsSections">
-      <a href="#hero" className="sectionInd">INICIO</a>
+      <Link to="/" className="sectionInd">INICIO</Link>
       <div className="vertical-line"></div>
-      <a href="#productList" className="sectionInd">PRODUCTOS</a>
+      <Link to="/" className="sectionInd">PRODUCTOS</Link>
       <div className="vertical-line"></div>
-      <a href="#FOTO4" className="sectionInd">SOBRE NOSOTROS</a>
+      <Link to="/sobre-nosotros" className="sectionInd">SOBRE NOSOTROS</Link>
     </ul>
   )
 }

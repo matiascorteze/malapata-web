@@ -27,12 +27,19 @@
   border-top: 2px solid #73cbf100;
 }
 
+.link-style {
+  text-decoration: none;
+  border-bottom: 2px solid #73cbf100;
+  border-top: 2px solid #73cbf100;
+}
+
 .sectionInd:hover {
   color: #73cbf1;
   border-bottom: 2px solid#f57e24;
   border-top: 2px solid #73cbf100;
   padding: 2px 0;
 }
+
 
 .vertical-line {
   width: 2px;

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+/*font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+/*font-family: 'Nunito', sans-serif;*/
+
+* {
+  margin: 0;
+}
+
+.product-top-section{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.product-info-ind {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 0 3vw;
+  font-size: 16px;
+  width: 90%;
+}
+
+.product-name-ind {
+  font-family: 'Nunito', sans-serif;
+  font-size: clamp(2rem, 3vw, 4rem);
+  margin-bottom: 15px;
+  color: #292929;
+}
+
+.product-price-ind {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.5rem, 2vw, 3rem);
+  margin-bottom: 20px;
+  color: #292929;
+}
+
+.product-desc-ind {
+  display: flex;
+  flex-direction: column ;
+}
+
+button.mercadopago-button {
+  background-color: #fff;
+  color: #292929;
+  border: 1px solid #292929;
+  border-radius: 50px;
+  margin: 20px 0;
+  transition: all 0.2s ease;
+}
+
+button.mercadopago-button:hover {
+  background-color:#73cbf1;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  margin: 20px 0;
+}
+
+.product-bottom-section {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bottom-section-title {
+  font-family: 'Nunito', sans-serif;
+  font-size: clamp(1.5rem, 3vw, 4rem);
+  margin-bottom: 10px;
+  color: #292929;
+}
+
+.bottom-section-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.1rem, 2vw, 3rem);
+  margin-bottom: 20px;
+  color: #292929;
+}
+
+.medida-title {
+  font-family: 'Nunito', sans-serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: 5px;
+  color: #292929;
+}
+
+.medida-proc {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+
+@media all and (max-width: 450px) {
+  .product-top-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-info-ind {
+    margin: 30px auto;
+  }
+
+  .product-bottom-section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+}
