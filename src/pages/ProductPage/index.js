@@ -12,7 +12,7 @@ function ProductPage(props) {
   const { id } = props.match.params
   const product = products.filter((product) => product.url === id)[0]
 
-  const { name, price, desc, medidas } = product
+  const { name, price, desc, medidas, precios } = product
 
   return (
     <>
@@ -28,12 +28,24 @@ function ProductPage(props) {
                 <span key={key}>{desc}</span>
               )
             })}</p>
+            
+          <div className="price-list">
+            {precios && precios.map((precio, key) => {
+              const {medida, valor, src, datapref} = precio;
+              return (
+                <div className="price-block" key={key}>
+                  <h3 className="price-block-title">-{medida}:   <span>${valor}</span></h3>
+                  <ScriptTag
+                    type="text/javascript"
+                    src={src}
+                    data-preference-id={datapref}
+                    data-button-label="Comprar" />
+                </div>
+              )
+            })}
 
-          <ScriptTag
-            type="text/javascript"
-            src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-            data-preference-id="77337820-b8524982-385b-4487-9da1-84d2acfa9f84"
-            data-button-label="Comprar" />
+          </div>
+
 
 
 
@@ -52,7 +64,7 @@ function ProductPage(props) {
           )
         })}
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }

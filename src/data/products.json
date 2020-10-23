@@ -41,6 +41,26 @@
         "title": "Medida D",
         "proc": "Mide el contorno de la pata de tu perro o gato con una cinta métrica flexible como indica la foto."
       }
+    ],
+    "precios": [
+      {
+        "medida": "Hasta 10cm de altura",
+        "valor": 1200,
+        "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
+        "datapref": "77337820-b8524982-385b-4487-9da1-84d2acfa9f84"
+      },
+      {
+        "medida": "De 11cm a 20cm de altura",
+        "valor": 2200,
+        "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
+        "datapref": "77337820-b8524982-385b-4487-9da1-84d2acfa9f84"
+      },
+      {
+        "medida": "De 21cm a 25cm de altura",
+        "valor": 2900,
+        "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
+        "datapref": "77337820-b8524982-385b-4487-9da1-84d2acfa9f84"
+      }
     ]
   },
   {
@@ -67,6 +87,32 @@
       {
         "title": "Medida D",
         "proc": "Mide el contorno de la pata de tu perro o gato con una cinta métrica flexible como indica la foto."
+      }
+    ],
+    "precios": [
+      {
+        "medida": "Hasta 10cm de altura",
+        "valor": 1200,
+        "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
+        "datapref": "77337820-b8524982-385b-4487-9da1-84d2acfa9f84"
+      },
+      {
+        "medida": "De 11cm a 20cm de altura",
+        "valor": 2200,
+        "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
+        "datapref": "77337820-b8524982-385b-4487-9da1-84d2acfa9f84"
+      },
+      {
+        "medida": "De 21cm a 25cm de altura",
+        "valor": 2900,
+        "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
+        "datapref": "77337820-b8524982-385b-4487-9da1-84d2acfa9f84"
+      },
+      {
+        "medida": "De 26cm a 30cm de altura",
+        "valor": 3800,
+        "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
+        "datapref": "77337820-b8524982-385b-4487-9da1-84d2acfa9f84"
       }
     ]
   },
@@ -98,6 +144,32 @@
       {
         "title": "Medida E",
         "proc": "Debe cubrir la distancia entre el tarso y el punto medio hasta la rodilla."
+      }
+    ],
+    "precios": [
+      {
+        "medida": "Hasta 10cm de altura",
+        "valor": 1200,
+        "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
+        "datapref": "77337820-b8524982-385b-4487-9da1-84d2acfa9f84"
+      },
+      {
+        "medida": "De 11cm a 20cm de altura",
+        "valor": 2200,
+        "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
+        "datapref": "77337820-b8524982-385b-4487-9da1-84d2acfa9f84"
+      },
+      {
+        "medida": "De 21cm a 25cm de altura",
+        "valor": 2900,
+        "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
+        "datapref": "77337820-b8524982-385b-4487-9da1-84d2acfa9f84"
+      },
+      {
+        "medida": "De 26cm a 30cm de altura",
+        "valor": 3800,
+        "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
+        "datapref": "77337820-b8524982-385b-4487-9da1-84d2acfa9f84"
       }
     ]
   },
