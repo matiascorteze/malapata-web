@@ -19,7 +19,10 @@ function Footer() {
         </div>
         <div className="phone">
           <i className="fas fa-phone-alt" />
-          <a href="https://wa.me/5491151743319">11-51743319</a>
+          <a 
+            href="https://wa.me/5491151743319"
+            target="_blank"
+            rel="noopener noreferrer">11-51743319</a>
         </div>
       </div>
       <a 

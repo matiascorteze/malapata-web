@@ -12,6 +12,8 @@ function ProductPage(props) {
   const { id } = props.match.params
   const product = products.filter((product) => product.url === id)[0]
 
+  console.log(props);
+
   const { name, price, desc, medidas, precios } = product
 
   return (
