@@ -18,7 +18,7 @@
         "medida": "Medida general",
         "valor": 8300,
         "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
-        "datapref": "583336707-2c0f9365-d602-4887-b39b-07a0129188f9"
+        "datapref": "583336707-4dfb2a95-adba-4173-a255-7fc54d7a2aa3"
       }]
   },
   {
@@ -38,9 +38,9 @@
     "precios": [
       {
         "medida": "Medida General",
-        "valor": 1200,
+        "valor": 11500,
         "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
-        "datapref": "583336707-2c0f9365-d602-4887-b39b-07a0129188f9"
+        "datapref": "583336707-5def0e39-fa26-4d93-9d59-c42a747cbdba"
       }]
   },
   {
@@ -62,7 +62,7 @@
         "medida": "A medida",
         "valor": 8300,
         "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
-        "datapref": "583336707-2c0f9365-d602-4887-b39b-07a0129188f9"
+        "datapref": "583336707-0e81c3fc-c785-4825-83c7-7673d456214e"
       }]
   },
   {
@@ -82,9 +82,9 @@
     "precios": [
       {
         "medida": "Medida General",
-        "valor": 1200,
+        "valor": 10000,
         "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
-        "datapref": "583336707-2c0f9365-d602-4887-b39b-07a0129188f9"
+        "datapref": "583336707-e9da21cb-4080-4db8-994e-4d07314a35e0"
       }]
   },
   {
@@ -337,7 +337,7 @@
       },
       {
         "medida": "De 21cm a 25cm de altura",
-        "valor": 2800,
+        "valor": 2900,
         "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
         "datapref": "583336707-00123db9-b651-4390-92d2-95fa45a66863"
       }
@@ -382,7 +382,7 @@
         "medida": "De 21cm a 25cm de altura",
         "valor": 2900,
         "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
-        "datapref": "583336707-56ef7137-6ff8-42af-b173-47b4cab49186"
+        "datapref": "583336707-03a3b4b0-906a-41c6-af40-dae8738e5006"
       }
     ]
   }
