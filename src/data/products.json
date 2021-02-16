@@ -391,7 +391,7 @@
     "id": 11,
     "name": "Aro Júpiter",
     "url": "aro-jupiter",
-    "price": 850,
+    "price": 1000,
     "desc": ["Dispositivo JÚPITER para impedir que nuestras mascotas ciegas choquen contra objetos. Es super liviano (10 grs) y no ocasiona ningún cansancio cervical.", " ", "Aconsejamos para su adaptación colocarlo gradualmente unas horas por día, para que su mascota vaya incorporando esta señal de aviso cuando golpea con un objeto, con los días ya podrá usarlo todo el tiempo. Quitarlo por las noches para que pueda descansar cómodamente.", " ","JUPITER viene en 4 tamaños: mini, chico, mediano y grande, y cualquiera de estos se puede achicar de ser necesario cortando el aro de metal con una pinza, así de fácil!", " ", "Si es con collar, informar para su elavoracion el tamaño de su peludo y el contorno del cuello para realizarlo a su medida.", " ", "Hay 4 tamaños: MINI (hasta 3kg), CHICO (hasta 10kg), MEDIANO (hasta 20kg), GRANDE (mas de 20kg). Todos al mismo precio!"],
     "main_img": "https://i.postimg.cc/G9ndcKX2/aro-jupiter-01.jpg",
     "alt_img": ["https://i.postimg.cc/G9ndcKX2/aro-jupiter-01.jpg", "https://i.postimg.cc/qM2C25V1/aro-jupiter-02.jpg", "https://i.postimg.cc/fWJp1bWX/aro-jupiter-03.jpg"],
@@ -404,13 +404,13 @@
     "precios": [
       {
         "medida": "Sin collar",
-        "valor": 850,
+        "valor": 1000,
         "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
         "datapref": "583336707-bf4684e2-4cb7-4b1c-bc28-4bc25887b8b3"
       },
       {
         "medida": "Con collar",
-        "valor": 1150,
+        "valor": 1300,
         "src": "https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js",
         "datapref": "583336707-44bd50e8-5d0f-47d5-8abb-265044c33197"
       }
