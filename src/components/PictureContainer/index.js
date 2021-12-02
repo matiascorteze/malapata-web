@@ -9,7 +9,7 @@ function PictureContainer({ props }) {
 
   function handleClick(img) {
     setCurrentPic(img)
-    console.log(img, currentPic);
+    // console.log(img, currentPic);
   }
 
   return (

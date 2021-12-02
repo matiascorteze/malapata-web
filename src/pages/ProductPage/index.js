@@ -12,7 +12,7 @@ function ProductPage(props) {
   const { id } = props.match.params
   const product = products.filter((product) => product.url === id)[0]
 
-  console.log(props);
+  // console.log(props);
 
   const { name, price, desc, medidas, precios } = product
 
@@ -23,7 +23,7 @@ function ProductPage(props) {
         <PictureContainer props={product} />
         <div className="product-info-ind">
           <h1 className="product-name-ind">{name}</h1>
-          <h3 className="product-price-ind">Desde ${price}</h3>
+          {/* <h3 className="product-price-ind">Desde ${price}</h3> */}
           <p className="product-desc-ind">
             {desc.map((desc, key) => {
               return (
@@ -31,7 +31,7 @@ function ProductPage(props) {
               )
             })}</p>
             
-          <div className="price-list">
+          {/* <div className="price-list">
             {precios && precios.map((precio, key) => {
               const {medida, valor, src, datapref} = precio;
               return (
@@ -46,7 +46,7 @@ function ProductPage(props) {
               )
             })}
 
-          </div>
+          </div> */}
 
 
 
